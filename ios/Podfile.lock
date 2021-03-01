@@ -1,0 +1,29 @@
+PODS:
+  - Capacitor (2.4.6):
+    - CapacitorCordova
+  - CapacitorCordova (2.4.6)
+  - WechatOpenSDK-Swift (1.8.7.1)
+
+DEPENDENCIES:
+  - "Capacitor (from `../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../node_modules/@capacitor/ios`)"
+  - WechatOpenSDK-Swift
+
+SPEC REPOS:
+  trunk:
+    - WechatOpenSDK-Swift
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../node_modules/@capacitor/ios"
+
+SPEC CHECKSUMS:
+  Capacitor: 0f131577d41c082931f00cc080e2289d503465c8
+  CapacitorCordova: 3375b39b5ebca770ac7869f85e4dea32a642c9e0
+  WechatOpenSDK-Swift: 18a8f7b12e745c30acc013f72a9f8a25aad6e216
+
+PODFILE CHECKSUM: 13e5e6b4b5ba183012c1a444b022d3415ea2e9f6
+
+COCOAPODS: 1.9.3
