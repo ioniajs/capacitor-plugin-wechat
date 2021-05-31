@@ -1,10 +1,22 @@
 {
   "name": "@ionia/capacitor-plugin-wechat",
-  "version": "0.1.0",
-  "description": "wechat plugin for capacitor",
+  "version": "0.2.4",
+  "description": "Wechat plugin for capacitor",
   "main": "dist/plugin.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "RoyLin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ioniajs/capacitor-plugin-wechat.git"
+  },
+  "bugs": {
+    "url": "git@github.com:ioniajs/capacitor-plugin-wechat.git/issues"
+  },
   "scripts": {
     "lint": "npm run prettier -- --check && npm run swiftlint -- lint",
     "prettier": "prettier \"**/*.{css,html,ts,js,java}\"",
@@ -14,8 +26,6 @@
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build"
   },
-  "author": "RoyLin",
-  "license": "MIT",
   "devDependencies": {
     "@capacitor/android": "^2.4.6",
     "@capacitor/core": "^2.4.6",
@@ -53,12 +63,5 @@
     }
   },
   "prettier": "@ionic/prettier-config",
-  "swiftlint": "@ionic/swiftlint-config",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:ioniajs/capacitor-plugin-wechat.git"
-  },
-  "bugs": {
-    "url": "git@github.com:ioniajs/capacitor-plugin-wechat.git/issues"
-  }
+  "swiftlint": "@ionic/swiftlint-config"  
 }

@@ -8,4 +8,6 @@ CAP_PLUGIN(Wechat, "Wechat",
            CAP_PLUGIN_METHOD(shareText, CAPPluginReturnPromise);
            CAP_PLUGIN_METHOD(shareLink, CAPPluginReturnPromise);
            CAP_PLUGIN_METHOD(shareImage, CAPPluginReturnPromise);
+           CAP_PLUGIN_METHOD(shareMiniProgram, CAPPluginReturnPromise);
+           CAP_PLUGIN_METHOD(openMiniProgram, CAPPluginReturnPromise);
 )
